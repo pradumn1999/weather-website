@@ -1,0 +1,39 @@
+body ,html{
+padding: 0;
+margin:0%;
+background-image:url("image/img3.jpg");
+height: 100%;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+
+
+}
+
+.heading{
+    text-align: center;
+    font-size: 2.6em;
+}
+
+
+.widget{
+width: 30%;
+height:80%;
+border-radius: 20px;
+background: rgba(299,299,299,0.4);
+margin-left: 35%;
+margin-right: 35%;
+}
+
+.widget .h2{
+    font-size: 2.5em;
+    text-align: center;
+    font-style:normal ;
+}
+.widget .h3{
+    /* display: inline-block; */
+    margin-bottom: 10px;
+    font-size: 2.2em;
+    text-align: center;
+    font-style:normal ;
+}

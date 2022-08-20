@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;600&display=swap');  
+
+body,html{
+    color:#ffff;
+    height:100%;
+    margin:0;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+.img{
+    background-image: url("image/img2.jpg");
+    height: 100%;
+    margin: 0;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+}
+.contaner{
+    top: 30%;
+    left: 35%;
+    position: absolute;
+    transform: translet(-50% -50%);
+} 
+.widget{
+    width: 400px;
+    height: 200px;
+    border-radius: 20px;
+    background: rgba(299,299,299,0.4);
+}
+.widget .left{
+    height: 100%;
+    position: absolute;
+    left:10%;
+    color: #ffff;
+
+}
+.widget .right{
+    position: absolute;
+    right: 70px;
+    font-size: 22px;
+}
+
+.widget .righ .city{
+    position: absolute;
+    top: 50px;
+    font-size: 16px;
+    
+}
+.icon{
+    height: 60%;
+    top: 40%;
+}
+.widget .left .weather-status{
+    position: absolute;
+    left: 10px;
+    height: 100%;
+    top: 65px;
+    font-size: 16px;
+    color: #ffff;
+}
+.widget .right .degree{
+    position: absolute;
+    font-size: 30px;
+    top: 20px;
+}
+.widget .bottom{
+    width: 90%;
+    position: absolute;
+    bottom: 10px;
+    display: flex;
+    justify-content: center;
+    left: 30px;
+}
+.days .day{
+    
+    width: 176%;
+    top: 137%;
+    position: absolute;
+    right: -40%;
+    border-radius: 20px;
+
+}
