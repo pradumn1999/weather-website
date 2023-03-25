@@ -18,7 +18,7 @@ background-size: cover;
 
 .widget{
 width: 30%;
-height:80%;
+height:70%;
 border-radius: 20px;
 background: rgba(299,299,299,0.4);
 margin-left: 35%;
@@ -36,4 +36,9 @@ margin-right: 35%;
     font-size: 2.2em;
     text-align: center;
     font-style:normal ;
+}
+.h3:hover{
+    font-size:3em ;
+    font-style: italic;
+    color: hotpink;
 }

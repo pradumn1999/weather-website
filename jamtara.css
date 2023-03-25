@@ -63,7 +63,7 @@ body, html{
     margin-left:46% ;
 }
 .widget .right .city{
-    font-size: 1em;
+    font-size: 1.5em;
     margin: 100;
     text-shadow: 1px 1px 5px #707070;
 }
@@ -79,6 +79,11 @@ body, html{
     text-align: center;
     margin:20%;
     text-shadow: 1px 1px 5px #fff;
+}
+.today{
+    padding: 0%;
+    margin-top: -22%;
+    margin-bottom: -3%;
 }
 .widget .bottom{
     width:100% ;
